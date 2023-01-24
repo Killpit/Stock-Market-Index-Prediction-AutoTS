@@ -31,7 +31,7 @@ figure = go.Figure(data=[go.Candlestick(x=data["Date"],
                                         high=data["High"],
                                         low=data["Low"],
                                         close=data["Close"])])
-figure.update_layout(title="Ethereum Price Analysis",
+figure.update_layout(title="Nasdaq Composite Index Price Analysis",
                      xaxis_rangeslider_visible=False)
 figure.show()
 
